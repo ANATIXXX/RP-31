@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Agency FB", "Segoe UI";
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+input{
+    margin:10px 0;
+    padding: 10px;
+    border: unset;
+    border-bottom: 2px solid darkgrey;
+    outline: none;
+}
+button{
+    padding: 10px;
+    background: aquamarine;
+    border: unset;
+    cursor: pointer;
+}
+a{
+    color: darkgrey;
+    font-weight: unset;
+    text-decoration: none;
+}
+p{
+    margin: 10px 0;
+}
+
+.msg{
+    border: 2px solid red;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+.logout{
+    text-align: right;
+    color: red;
+}
