@@ -1,0 +1,70 @@
+body{
+	width: 1640px;
+	background-color: #f7f7f7;
+	margin: auto;
+	font-family: "Agency FB", "Segoe UI";
+}
+header{
+	border: 1px solid black;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+.logo{
+	padding: 20px 0 20px 20px;
+	width: 100px;
+	height: 100px;
+}
+.sitename{
+	
+}
+.autoriz-reg{
+	padding-right: 20px;
+}
+.searchbutton{
+	margin-left: 44%;
+}
+.main-content{
+	width: 1640px;
+	display: grid;
+	grid-template-columns: 400px 1240px;
+
+}
+.choose-category{
+	border: 1px solid black;
+	grid-column: 1/2;
+	grid-row: 1/2;
+}
+.choose{
+	padding-left: 20px;
+}
+.zagkat{
+	text-align: center;
+}
+.searchcat{
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+  	margin-left: auto;
+  	margin-right: auto;
+  	text-align: center;
+}
+.page-books{
+	height: auto;
+	padding: 30px 80px;
+	border: 1px solid black;
+	grid-column: 2/3;
+	grid-row: 1/2;
+	display: grid;
+	grid-template-columns: repeat(3, 413px);
+}
+.book{
+	margin-bottom: 30px;
+	width: 252px;
+	padding-bottom: 20px;
+}
+div img{
+	height: 300px;
+	width: 200px;
+	border: 1px solid black;
+}

@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.apg{
+    width: 1640px;
+    display: grid;
+    grid-template-columns: 400px 1240px;
+}
+.apg-books{
+    padding: 30px 80px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(3, 413px);
+    grid-column: 2/3;
+    grid-row: 1/2;
+
+}
+.apg-creator{
+    padding-right: 30px;
+    padding-top: 150px;
+}
+body{
+    background: #f7f7f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Agency FB", "Segoe UI";
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+input{
+    margin:10px 0;
+    padding: 10px;
+    border: unset;
+    border: 2px solid darkgrey;
+    outline: none;
+}
+button{
+    color: white;
+    padding: 10px;
+    background: #e882ed;
+    border: unset;
+    cursor: pointer;
+}
+a{
+    color: darkgrey;
+    font-weight: unset;
+    text-decoration: none;
+}
+p{
+    margin: 10px 0;
+}
+
+.msg{
+    border: 2px solid red;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+.logout{
+    text-align: right;
+    color: red;
+}
+#modalwindow {
+    background: rgba(102, 102, 102, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+#okno {
+    width: 435px;
+    height: 520px;
+    text-align: center;
+    padding: 15px;
+    border: 3px solid white;
+    border-radius: 10px;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background: #fff;
+}
+#modalwindow:target {display: block;}
+.close {
+    display: inline-block;
+    border: 1px solid white;
+    color: black;
+    padding: 0 12px;
+    margin: 10px;
+    text-decoration: none;
+    background: #f2f2f2;
+    font-size: 14pt;
+    cursor:pointer;
+}
